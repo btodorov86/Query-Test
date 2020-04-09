@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -14,6 +14,8 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+
   <title>Test Firebase</title>
 </head>
 
@@ -39,14 +41,7 @@
   </span>
   <div id="current">
     <div class="label">Current conditions</div>
-    <div class="forecast">
-      <span class="condition symbol">symbol</span>
-      <span class="condition">
-        <span class="forecast-data">London</span>
-        <span class="forecast-data">gradusi</span>
-        <span class="forecast-data">rain</span>
-      </span>
-    </div>
+    
     <div class="forecast">
       <span class="condition symbol">symbol</span>
       <span class="condition">
@@ -75,7 +70,7 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+
   <script src="script.js"></script>
 </body>
 
