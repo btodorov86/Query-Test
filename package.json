@@ -18,6 +18,6 @@
   "homepage": "https://github.com/btodorov86/Query-Test#readme",
   "dependencies": {
     "handlebars": "^4.7.6",
-    "jquery": "^3.4.1"
+    "jquery": "^3.5.0"
   }
 }
